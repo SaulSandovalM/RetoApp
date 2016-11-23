@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/menu/main3.xml",
+        "source": "/Users/fixtergeek/Documents/RetoApp/app/src/main/res/menu/main3.xml"
+    },
+    {
+        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/menu/menu_detalle.xml",
+        "source": "/Users/fixtergeek/Documents/RetoApp/app/src/main/res/menu/menu_detalle.xml"
+    },
+    {
+        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/menu/activity_main3_drawer.xml",
+        "source": "/Users/fixtergeek/Documents/RetoApp/app/src/main/res/menu/activity_main3_drawer.xml"
+    }
+]

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_estadisticos"
+            android:icon="@drawable/ic_next_week_black_24dp"
+            android:title="Estadisticos" />
+        <item
+            android:id="@+id/nav_aspirante"
+            android:icon="@drawable/ic_group_add_black_24dp"
+            android:title="Vacantes" />
+        <item
+            android:id="@+id/nav_becarios"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Becarios" />
+        <item
+            android:id="@+id/nav_empresarios"
+            android:icon="@drawable/ic_domain_black_24dp"
+            android:title="Empresas" />
+    </group>
+
+    <item android:title="Contactanos">
+        <menu>
+            <item
+                android:id="@+id/nav_contacto"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contacto" />
+            <item
+                android:id="@+id/perfil"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Tu Perfil" />
+        </menu>
+    </item>
+
+</menu>

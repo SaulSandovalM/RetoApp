@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "479935418852",
+    "firebase_url": "https://mi-primer-empleo-80e19.firebaseio.com",
+    "project_id": "mi-primer-empleo-80e19",
+    "storage_bucket": "mi-primer-empleo-80e19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479935418852:android:8fc3e4d3b41e3539",
+        "android_client_info": {
+          "package_name": "com.saul.develop.retoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479935418852-naiu82irm5ge2dc1gr6n65e3lp6f6a6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saul.develop.retoapp",
+            "certificate_hash": "EB1E3F8E87A866034E751D4B47B76E48F8E4E83D"
+          }
+        },
+        {
+          "client_id": "479935418852-e5ugj5dncncg2s5rnj4p6buvvjc8faag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjKJZm3smCKKhUlL_1jieC03hmKhrKgYM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479935418852-e5ugj5dncncg2s5rnj4p6buvvjc8faag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
