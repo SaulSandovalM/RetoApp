@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Nov 24 11:31:22 CST 2016
+#Thu Nov 24 12:13:26 CST 2016
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/fragment_contacto.xml

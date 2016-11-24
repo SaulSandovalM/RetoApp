@@ -8,20 +8,20 @@
         "source": "/Users/fixtergeek/Documents/RetoApp/app/src/main/res/layout/fragment_becarios.xml"
     },
     {
-        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
-        "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_layout_tab_text.xml"
-    },
-    {
         "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
-        "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_icon_group.xml"
+        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_layout_tab_text.xml"
     },
     {
         "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/content_detalle.xml",
         "source": "/Users/fixtergeek/Documents/RetoApp/app/src/main/res/layout/content_detalle.xml"
+    },
+    {
+        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
