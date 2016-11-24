@@ -5,32 +5,33 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="14809193470779"
+    timestamp="4083774662347"
     token="8863673466897996701"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="674" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="294" />
     <task
         name="verifier"
-        duration="0" />
+        duration="65" />
+
+    <artifact
+        location="/Users/fixtergeek/Documents/RetoApp/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="14144925772467"
+        timestamp="4083774662347"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/fixtergeek/Documents/RetoApp/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="14809193470779"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
