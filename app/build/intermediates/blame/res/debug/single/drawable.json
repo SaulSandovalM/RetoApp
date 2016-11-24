@@ -48,14 +48,6 @@
         "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/drawable/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/drawable/common_google_signin_btn_text_light.xml"
-    },
-    {
         "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/drawable/goo.png",
         "source": "/Users/fixtergeek/Documents/RetoApp/app/src/main/res/drawable/goo.png"
     },
@@ -184,16 +176,8 @@
         "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/drawable/common_google_signin_btn_icon_dark.xml"
-    },
-    {
         "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",

@@ -8,71 +8,163 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.saul.develop.retoapp.Registro">
 
-
-    <TextView
-        android:text="REGISTRO"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView7" />
+        android:layout_alignParentStart="true">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:ems="10"
-        android:id="@+id/editText4"
-        android:layout_below="@+id/textView8"
-        android:layout_alignParentStart="true" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:ems="10"
-        android:id="@+id/pass"
-        android:layout_below="@+id/textView4"
-        android:layout_alignParentStart="true" />
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/logo"
+                android:layout_below="@+id/textView7"
+                android:layout_centerHorizontal="true" />
 
-    <TextView
+            <TextView
+            android:text="MI CUENTA"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView7" />
+
+            <TextView
+                android:text="Para registrarte en el sistema proporciona lo siguiente:"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_dark"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView7" />
+
+            <TextView
         android:text="Nombre Completo:"
-        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView7"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/logo"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="28dp"
-        android:id="@+id/textView9" />
+        android:layout_marginTop="18dp" />
 
-    <EditText
-        android:layout_width="wrap_content"
+            <EditText
+                android:hint="Escribe tu nombre completo"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
         android:ems="10"
         android:id="@+id/editText5"
         android:layout_below="@+id/textView9"
         android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/pass" />
+        android:layout_alignParentEnd="true" />
 
-    <TextView
+            <TextView
         android:text="Correo Electronico:"
-        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="22dp"
         android:id="@+id/textView4"
         android:layout_below="@+id/editText5"
         android:layout_alignParentStart="true" />
 
-    <TextView
+            <EditText
+                android:hint="ejemplo@hotmail.com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/pass"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
         android:text="Contraseña: "
-        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView8"
         android:layout_marginTop="19dp"
         android:layout_below="@+id/pass"
         android:layout_alignParentStart="true" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:text="Repetir Contraseña: "
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:layout_marginTop="19dp"
+                android:layout_below="@+id/pass"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/editText4"
+                android:layout_below="@+id/textView8"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <CheckBox android:id="@+id/checkbox_meat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+                android:text="Becario"
+                android:onClick="onCheckboxClicked"
+                android:layout_weight="0.60" />
+
+            <CheckBox android:id="@+id/checkbox_cheese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Empresa"
+                android:onClick="onCheckboxClicked"
+                android:layout_weight="0.27" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

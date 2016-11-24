@@ -1,7 +1,4 @@
-#Thu Nov 24 11:31:26 CST 2016
-base.0=/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_33adad1f93447ffd5b689f9bc7983d1d56fde1d2
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c9b019d9317fa55f3e67e2f01c459712f1b722f6/classes.dex
-base.1=/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c9b019d9317fa55f3e67e2f01c459712f1b722f6
-file.0=/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_33adad1f93447ffd5b689f9bc7983d1d56fde1d2/classes.dex
+#Thu Nov 24 15:17:45 CST 2016
+base.0=/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
