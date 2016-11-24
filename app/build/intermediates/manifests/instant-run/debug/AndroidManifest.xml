@@ -47,6 +47,7 @@
             android:name="com.saul.develop.retoapp.DisplayMessageActivity"
             android:label="@string/title_activity_display_message"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.saul.develop.retoapp.Registro" />
         <!--
          FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"

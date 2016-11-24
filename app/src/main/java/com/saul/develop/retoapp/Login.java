@@ -9,6 +9,7 @@ import android.widget.Button;
 public class Login extends AppCompatActivity {
 
     Button siguiente;
+    Button registro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,16 @@ public class Login extends AppCompatActivity {
             public void onClick(View v) {
                 Intent siguiente = new Intent(Login.this, Main3Activity.class);
                 startActivity(siguiente);
+            }
+        });
+
+        registro = (Button) findViewById(R.id.registro);
+
+        registro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent registro = new Intent(Login.this, Registro.class);
+                startActivity(registro);
             }
         });
     }

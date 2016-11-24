@@ -70,4 +70,14 @@
         android:layout_alignStart="@+id/logo"
         android:layout_marginTop="10dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿No tienes cuenta? Registrate"
+        android:layout_below="@+id/inicio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/registro"
+        android:onClick="registro"/>
+
 </RelativeLayout>

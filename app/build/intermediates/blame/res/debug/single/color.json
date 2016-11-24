@@ -12,6 +12,10 @@
         "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/color/switch_thumb_material_dark.xml"
     },
     {
+        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
         "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/color/abc_tint_default.xml"
     },
@@ -82,5 +86,9 @@
     {
         "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
         "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/color/common_google_signin_btn_text_light.xml"
     }
 ]

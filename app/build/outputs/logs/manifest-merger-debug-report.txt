@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml
@@ -14,14 +14,14 @@ ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:
 		INJECTED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:5:5-66
+ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-iid:9.6.1] /Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics:9.6.1] /Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] /Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:7:5-34:19
+ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:7:5-35:19
 MERGED from [com.android.support:design:25.0.0] /Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.0.0] /Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.0.0] /Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/AndroidManifest.xml:25:5-20
@@ -86,13 +86,17 @@ ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:27:13-36
 activity#com.saul.develop.retoapp.DisplayMessageActivity
-ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:30:9-33:68
+ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:30:9-33:59
 	android:label
 		ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:32:13-67
 	android:theme
 		ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:33:13-56
 	android:name
 		ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:31:13-51
+activity#com.saul.develop.retoapp.Registro
+ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:34:9-55
+	android:name
+		ADDED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml:34:19-43
 uses-sdk
 INJECTED from /Users/fixtergeek/Documents/RetoApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.0.0] /Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/AndroidManifest.xml:21:5-23:62
