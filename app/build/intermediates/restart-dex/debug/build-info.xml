@@ -5,9 +5,9 @@
     density="hdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="21120176484271"
+    timestamp="21505891108580"
     token="8863673466897996701"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
@@ -23,15 +23,22 @@
         duration="0" />
 
     <artifact
-        location="/Users/fixtergeek/Documents/RetoApp/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="21120176484271"
+        timestamp="21327971632897"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/fixtergeek/Documents/RetoApp/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="21505891108580"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
