@@ -5,36 +5,40 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="1972064645953"
-    token="8863673466897996701" >
+    timestamp="7809850710475"
+    token="8863673466897996701"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="545" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="41" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
+
+    <artifact
+        location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="974623651880"
+        timestamp="7636418386957"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/fixtergeek/Documents/RetoApp/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="1942839783553"
-        verifier="COMPATIBLE" >
+        timestamp="7809850710475"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
     </build>
-    <build timestamp="1972064645953" />
 
 </instant-run>
