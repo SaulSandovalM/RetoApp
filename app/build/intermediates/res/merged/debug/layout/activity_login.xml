@@ -11,6 +11,17 @@
     android:background="@android:color/white"
     tools:context="com.saul.develop.retoapp.Login">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <ImageView
         android:id="@+id/logo"
         android:layout_width="150dp"
@@ -62,6 +73,7 @@
     <Button
         android:layout_width="150dp"
         android:layout_height="50dp"
+        android:layout_gravity="center"
         android:text="Entrar"
         android:textColor="@android:color/white"
         android:background="@color/colorPrimary"
@@ -72,6 +84,7 @@
         android:layout_marginTop="10dp" />
 
     <Button
+        android:layout_gravity="center"
         android:background="@android:color/white"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -82,4 +95,6 @@
         android:id="@+id/registro"
         android:onClick="registro"/>
 
+</LinearLayout>
+    </ScrollView>
 </RelativeLayout>
