@@ -1,4 +1,4 @@
-#Tue Nov 29 21:34:07 CST 2016
+#Tue Nov 29 22:51:15 CST 2016
 base.0=/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_33adad1f93447ffd5b689f9bc7983d1d56fde1d2
 renamed.1=classes.dex
 renamed.0=classes2.dex
