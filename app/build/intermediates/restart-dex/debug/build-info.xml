@@ -6,7 +6,7 @@
     format="8"
     plugin-version="2.2.2"
     timestamp="579851854093"
-    token="0"
+    token="8863673466897996701"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
@@ -17,13 +17,21 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="1928" />
     <task
         name="verifier"
-        duration="0" />
+        duration="239" />
 
     <artifact
-        location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/Users/fixtergeek/Documents/RetoApp/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="579851854093"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/fixtergeek/Documents/RetoApp/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
 
 </instant-run>
