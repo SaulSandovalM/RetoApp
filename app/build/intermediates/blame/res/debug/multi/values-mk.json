@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml",
+        "outputFile": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 338
                 },
                 "from": {
-                    "file": "/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/res/values-mk/values.xml",
+                    "file": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/res/values-mk/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

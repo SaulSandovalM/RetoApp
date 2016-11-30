@@ -3,543 +3,273 @@
 
     <item
         is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_d0d21868dc257a664c0e01c48aeec05893392c73/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_cd3bf3710cc22535514e00102e237d7447738111/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.0_2e6064f8045d58ab0dabf6a5d1cbd761486e90c6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_315220ab39e02ca1a5ebf35a3e2ce299038c7e64/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_a372cd2ceed827e3f431695ba9c9035bf2ad2cc4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.0_9ed7f4dc62540f017447f02cdd651d0d553f40ea/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_5b6b55af89e9662cc92dddd8f6f63f68adefb96a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.1_3ecc310eb0611ce2f206b9be88605d8c1b160617/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="37a375863fea303050a3bdecce46203bbe1fe95a">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_492472e696125eb4eb5796de7a976aa5b603ac5e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.0_b264ca18cb8e501006707ddfd70834abb5ce4203/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_00499c42d97eb4fd250bc3b7597f6f8a360cf60d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_ce2ea93a5e5f4a25a1c85b6abb9914d1ebd3fbd4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4a36600281a648769411ef642c331851732bf29e">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.1_a735af5bc38fd02efe8a6f30949986ef66c4021b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_915181bb725bdfcc790967262dc5f1b8327cae8d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.1_0a97b97898699e635f0e70386b355aa3bba8ce64/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_b5c50eb9de105634afa31ba249a989fb1269f81a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_b2412b42fd8e62d48b22b86791d4f2af8a24cf73/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_f97bc5d8a8a714f61340bcc98632e2d8137b17b5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_00499c42d97eb4fd250bc3b7597f6f8a360cf60d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.6.1_4ce798c93f67069e7c1ff59645741cd701364999/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_433e9de73acbcafabf7cd724854b8dc95fcc9f1c/classes.dex" />
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_839b3fd0bbf5ee6bbe3ea40976959534e5132b15/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_d0d21868dc257a664c0e01c48aeec05893392c73/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta3/constraint-layout-solver-1.0.0-beta3.jar"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="22c1e9d26251df254de7cc9dee01f5f134b10eba">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta3_a70c47727771902480e39a5f8d13ef66bab5af4a/classes.dex" />
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.0_d3f20db154db4ec9c68e702af80c69084ac176d0/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_567cae2bf32241927663276bab2104514f82439c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_1ca019929dc5d7bc4b9f1f662e49dfd3c0710908/classes.dex" />
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_a5e0c5602cac9b5edf967452bd13034b41892459/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_7b32ed8b516c7990bd6fa8df70fb7366c8e78c40/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="be98fbc1bfdb8316d4004bb322e5828bced88f0a">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_428d81856005e2772572e7d95aa4cad53e7b797d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.6.1_df49368ef00f66508c4cea6de9058246c03bfb72/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.1_8caf28889afbe58689e2123f0ee81d8cbcbdb672/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta3/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b81d40d208a3308c8e81b2cccd3054238a13d140">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta3_be45a21301ec59a3017c9a828414ce612cf776b1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="4a36600281a648769411ef642c331851732bf29e">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.1_a735af5bc38fd02efe8a6f30949986ef66c4021b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_b5c50eb9de105634afa31ba249a989fb1269f81a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_7b32ed8b516c7990bd6fa8df70fb7366c8e78c40/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_915181bb725bdfcc790967262dc5f1b8327cae8d/classes.dex" />
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_4f00254afc59a0987d3db6e54e7defc50663d9b9/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_ce2ea93a5e5f4a25a1c85b6abb9914d1ebd3fbd4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_f97bc5d8a8a714f61340bcc98632e2d8137b17b5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="be98fbc1bfdb8316d4004bb322e5828bced88f0a">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_428d81856005e2772572e7d95aa4cad53e7b797d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.1_8caf28889afbe58689e2123f0ee81d8cbcbdb672/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.0_2e6064f8045d58ab0dabf6a5d1cbd761486e90c6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="37a375863fea303050a3bdecce46203bbe1fe95a">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_492472e696125eb4eb5796de7a976aa5b603ac5e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_5b6b55af89e9662cc92dddd8f6f63f68adefb96a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_ec438212593dfc6e97c02094cb388b5bdecb288c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_315220ab39e02ca1a5ebf35a3e2ce299038c7e64/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_c9f8c7f29d365aa2a85fc805fcff4f61c018bdeb/classes.dex" />
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_d202e979e43050f51bc555710c31842857e46e73/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.1_3ecc310eb0611ce2f206b9be88605d8c1b160617/classes.dex" />
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_0eb0c86ec0e53481afa49fd74818e3242826ec79/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.0_0eec57f6c0762fcbdbe5a72fffe4ed2705d1175e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_82015d441df9e86d07e332c5c8400d9a1b613138/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_a372cd2ceed827e3f431695ba9c9035bf2ad2cc4/classes.dex" />
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_9f0de34d1c83d6b73ea732b380f9640498bcda85/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_1ca019929dc5d7bc4b9f1f662e49dfd3c0710908/classes.dex" />
+        revision="24.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_f19fc7276cd61776925ede3d92934874505b988a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/BlisS/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta3/constraint-layout-solver-1.0.0-beta3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="22c1e9d26251df254de7cc9dee01f5f134b10eba">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta3_a70c47727771902480e39a5f8d13ef66bab5af4a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.0_9ed7f4dc62540f017447f02cdd651d0d553f40ea/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.1_0a97b97898699e635f0e70386b355aa3bba8ce64/classes.dex" />
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.1_a59042d326ad2a2518cac2727eef96e56245ebb7/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
+        jar="/Users/fixtergeek/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.0_b264ca18cb8e501006707ddfd70834abb5ce4203/classes.dex" />
+        revision="24.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_c4cc1f9b922496bf8291bf8f74befe30dd6b16b6/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_ec438212593dfc6e97c02094cb388b5bdecb288c/classes.dex" />
+        revision="24.0.3"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.1_9ac4b00cd130ba93d90f4a2d2c3bf6e874e14755/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.6.1_df49368ef00f66508c4cea6de9058246c03bfb72/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_567cae2bf32241927663276bab2104514f82439c/classes.dex" />
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_61910a738fe810207909df90b37df8df79bfb96c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_cd3bf3710cc22535514e00102e237d7447738111/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_c9f8c7f29d365aa2a85fc805fcff4f61c018bdeb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_b2412b42fd8e62d48b22b86791d4f2af8a24cf73/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta3/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b81d40d208a3308c8e81b2cccd3054238a13d140">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta3_be45a21301ec59a3017c9a828414ce612cf776b1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.6.1/jars/classes.jar"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.6.1_4ce798c93f67069e7c1ff59645741cd701364999/classes.dex" />
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.6.1_ed28274bff52259e0e70771406db89b6d70d55de/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_433e9de73acbcafabf7cd724854b8dc95fcc9f1c/classes.dex" />
+        revision="24.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_58927b5c4e6f9e5975cdd7f18622efa16b56d1df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b81d40d208a3308c8e81b2cccd3054238a13d140">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta3_2013617e689469af061468eeef94bf0eb4ff7cb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.1_02144b63fc35ce023da4463573fa6250ef007c02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_90cc8b2affca4a5f597e6e5e9ac0f32ccc2ff183/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_bee6ab2aa946c314b73f8e33d22d558eff57dbaa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.1_5702f802069cb860685d2da2ebd16d29df0a939c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_f1ee659ae7687b1e0776cf11fcf09df81cd2553c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9bcebf76ae6d427ff07c8f87422dd2f7a0aae83">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c9b019d9317fa55f3e67e2f01c459712f1b722f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta3/constraint-layout-solver-1.0.0-beta3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="22c1e9d26251df254de7cc9dee01f5f134b10eba">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta3_c4cb01ec76e1d6c5ad3d45a7799ba52ed76c0fa4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_423170c20a155d5172bb964e164af03339d7a489/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.0_1c5002d02852ac93e7347f2a7262d1e05ff68d74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_be22bb628a22185e628d4a79a9fe513ea3fd243b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="71edc9129bbba78ff1db741601aa665ce9fac01d">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_33adad1f93447ffd5b689f9bc7983d1d56fde1d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_f732ae19cf1512ef59362cc39e2bcec9599b5ad2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.6.1_33cccf8d8f7d811fe6bffebdd7a29b73ca468f1f/classes.dex" />
     </item>
 
 </items>

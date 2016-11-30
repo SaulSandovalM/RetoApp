@@ -45,7 +45,8 @@ public class Estadisticos extends Fragment {
     public Estadisticos() {
         // Required empty public constructor
     }
-
+}
+/*
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
@@ -74,13 +75,13 @@ public class Estadisticos extends Fragment {
 
         //declaro mis datos
         String[] data = {
-                /*"Gerente",
+                *//*"Gerente",
                 "Chofer",
                 "Chef",
                 "Asistente general",
                 "Repartidor",
                 "Cocinero",
-                "Musico"*/
+                "Musico"*//*
         };
 
         List<String> fakaData = new ArrayList<String>(Arrays.asList(data));
@@ -182,7 +183,7 @@ public class Estadisticos extends Fragment {
             }
         }
     }
-}
+}*/
 /*
     public Estadisticos() {
         // Required empty public constructor

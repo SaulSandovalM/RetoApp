@@ -20,7 +20,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.Authenticator;
 import java.net.HttpURLConnection;
+import java.net.PasswordAuthentication;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -97,10 +99,17 @@ public class Becarios extends Fragment {
 
             try {
 
-                URL url = new URL("https://agile-thicket-30819.herokuapp.com/api/becarios/");
+                URL url = new URL("https://safe-earth-79891.herokuapp.com/api/vacantes/");
 
                 urlConnection = (HttpURLConnection) url.openConnection();
                 urlConnection.setRequestMethod("GET");
+
+                Authenticator.setDefault (new Authenticator() {
+                    protected PasswordAuthentication getPasswordAuthentication() {
+                        return new PasswordAuthentication ("bliss", "Poweroso77".toCharArray());
+                    }
+                });
+
                 urlConnection.connect();
 
                 InputStream inputStream = urlConnection.getInputStream();
@@ -145,21 +154,20 @@ public class Becarios extends Fragment {
         }
 
         private String[] getDataFormJson(String forecastJsonStr) throws JSONException{
-            final String FIELDS = "fields";
-            final String BECARIO = "nombre";
+            final String VACANTE = "puesto";
             JSONArray forecastJson = new JSONArray(forecastJsonStr);
             String[] resultStrs = new String[forecastJson.length()];
             for(int i=0;i < forecastJson.length(); i++){
 
-                JSONObject elemento_cero = forecastJson.getJSONObject(i);
-                JSONObject fields = elemento_cero.getJSONObject(FIELDS);
-                String becario = fields.getString(BECARIO);
+                JSONObject res = forecastJson.getJSONObject(i);
+                String empresa = res.getString("empresa");
+                String puesto = res.getString("puesto");
 
-                Log.v("el array", forecastJson.toString());
-                Log.v("el field", forecastJsonStr);
-                Log.v("la becario", forecastJsonStr);
+                Log.v("el objeto", res.toString());
+                Log.v("el puesto", puesto);
+                Log.v("la empresa", empresa);
 
-                resultStrs[i] = becario;
+                resultStrs[i] = puesto;
 
                 Log.v("la respuesta", resultStrs.toString());
             }
