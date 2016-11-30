@@ -22,4 +22,9 @@
         app:headerLayout="@layout/nav_header_main3"
         app:menu="@menu/activity_main3_drawer" />
 
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.saul.develop.retoapp.Estadisticos"
+        android:id="@+id/nav_estadisticos"/>
 </android.support.v4.widget.DrawerLayout>

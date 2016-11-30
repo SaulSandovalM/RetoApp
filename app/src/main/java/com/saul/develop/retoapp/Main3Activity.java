@@ -10,8 +10,8 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
+import static com.saul.develop.retoapp.R.id.nav_estadisticos;
 
 public class Main3Activity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -19,6 +19,7 @@ public class Main3Activity extends AppCompatActivity implements NavigationView.O
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -68,7 +69,7 @@ public class Main3Activity extends AppCompatActivity implements NavigationView.O
         int id = item.getItemId();
         FragmentManager fragmentManager = getFragmentManager();
 
-        if (id == R.id.nav_estadisticos) {
+        if (id == nav_estadisticos) {
             fragmentManager.beginTransaction().replace(R.id.content_frame, new Estadisticos()).commit();
         } else if (id == R.id.nav_aspirante) {
             fragmentManager.beginTransaction().replace(R.id.content_frame, new Aspirantes()).commit();
