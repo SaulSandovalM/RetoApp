@@ -64,12 +64,12 @@
         "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout/design_navigation_item_header.xml"
     },
     {
-        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/nav_header_main3.xml",
         "source": "/Users/fixtergeek/Documents/RetoApp/app/src/main/res/layout/nav_header_main3.xml"
+    },
+    {
+        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
@@ -148,12 +148,12 @@
         "source": "/Users/fixtergeek/Documents/RetoApp/app/src/main/res/layout/fragment_estadisticos.xml"
     },
     {
-        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/content_main3.xml",
-        "source": "/Users/fixtergeek/Documents/RetoApp/app/src/main/res/layout/content_main3.xml"
-    },
-    {
         "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/content_main3.xml",
+        "source": "/Users/fixtergeek/Documents/RetoApp/app/src/main/res/layout/content_main3.xml"
     },
     {
         "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
