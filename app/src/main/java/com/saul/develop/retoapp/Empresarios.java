@@ -102,7 +102,7 @@ public class Empresarios extends Fragment {
 
             try {
 
-                URL url = new URL("https://agile-thicket-30819.herokuapp.com/api/empresas/");
+                URL url = new URL("https://safe-earth-79891.herokuapp.com/api/empresas/");
 
                 urlConnection = (HttpURLConnection) url.openConnection();
                 urlConnection.setRequestMethod("GET");
@@ -156,21 +156,20 @@ public class Empresarios extends Fragment {
             return null;
         }
         private String[] getDataFormJson(String forecastJsonStr) throws JSONException{
-            final String FIELDS = "fields";
-            final String EMPRESAS = "name";
+            final String EMPRESA = "emp_nombre";
             JSONArray forecastJson = new JSONArray(forecastJsonStr);
             String[] resultStrs = new String[forecastJson.length()];
             for(int i=0;i < forecastJson.length(); i++){
 
-                JSONObject elemento_cero = forecastJson.getJSONObject(i);
-                JSONObject fields = elemento_cero.getJSONObject(FIELDS);
-                String empresas = fields.getString(EMPRESAS);
+                JSONObject res = forecastJson.getJSONObject(i);
+                String emp = res.getString("emp");
+                String emp_nombre = res.getString("emp_nombre");
 
-                Log.v("el array", forecastJson.toString());
-                Log.v("el field", forecastJsonStr);
-                Log.v("la empresas", forecastJsonStr);
+                Log.v("el objeto", res.toString());
+                Log.v("el emp_nombre", emp_nombre);
+                Log.v("la emp", emp);
 
-                resultStrs[i] = empresas;
+                resultStrs[i] = emp_nombre;
 
                 Log.v("la respuesta", resultStrs.toString());
             }

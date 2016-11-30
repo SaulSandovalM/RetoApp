@@ -205,7 +205,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="7c1bd522d699dc0bbec9dcf009d856ed1b947483">
+        sha1="b9bcebf76ae6d427ff07c8f87422dd2f7a0aae83">
         <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c9b019d9317fa55f3e67e2f01c459712f1b722f6/classes.dex" />
     </item>
     <item
@@ -250,7 +250,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="650a49801f4d109477848d0c867c0d1d35d5b561">
+        sha1="71edc9129bbba78ff1db741601aa665ce9fac01d">
         <dex dex="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_33adad1f93447ffd5b689f9bc7983d1d56fde1d2/classes.dex" />
     </item>
     <item
