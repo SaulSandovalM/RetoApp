@@ -1,86 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="25"
-    density="420dpi"
+    api-level="22"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="13769113033006"
-    token="8863673466897996701"
-    verifier="COMPATIBLE" >
+    timestamp="35263084672884"
+    token="8741178495190291434"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="306" />
+        duration="2391" />
     <task
         name="instant-run-dex"
-        duration="20" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="22" />
+        duration="1133" />
     <task
         name="verifier"
-        duration="4" />
+        duration="100" />
 
     <artifact
-        location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/BlisS/fixter/java/RetoApp/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="12853830060600"
+        timestamp="35263084672884"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/outputs/apk/app-debug.apk"
+            location="/Users/BlisS/fixter/java/RetoApp/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="13094832013097"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/builds/debug/13094832013097/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="13202335942824"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/builds/debug/13202335942824/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="13278831992072"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/builds/debug/13278831992072/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="13393058398880"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/builds/debug/13393058398880/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="13556370492599"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/builds/debug/13556370492599/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="13697999191494"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/builds/debug/13697999191494/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="13769113033006"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
