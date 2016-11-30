@@ -21,6 +21,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main3" />
+    <include layout="@layout/content_main3"
+        android:id="@+id/app_bar_main3" />
 
 </android.support.design.widget.CoordinatorLayout>

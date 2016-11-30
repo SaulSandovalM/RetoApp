@@ -1,63 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="25"
-    density="420dpi"
+    api-level="22"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="7530759852772"
-    token="8863673466897996701"
-    verifier="COLD_SWAP_REQUESTED" >
+    timestamp="4545651519888"
+    token="8741178495190291434"
+    verifier="R_CLASS_CHANGE" >
 
     <task
         name="javac"
-        duration="296" />
+        duration="2522" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="27" />
+        duration="318" />
     <task
         name="verifier"
-        duration="1" />
+        duration="36" />
 
     <artifact
-        location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+        location="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
         type="DEX" />
 
     <build
-        timestamp="579851854093"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="3636228451622"
+        verifier="BINARY_MANIFEST_FILE_CHANGE" >
         <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/outputs/apk/app-debug.apk"
+            location="/Users/BlisS/fixter/java/RetoApp/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="6350595758871"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="7059276492612"
+        timestamp="4545651519888"
         verifier="R_CLASS_CHANGE" >
         <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="7530759852772"
-        verifier="COLD_SWAP_REQUESTED" >
+            location="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
         <artifact
-            location="/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            location="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
             type="DEX" />
     </build>
 
