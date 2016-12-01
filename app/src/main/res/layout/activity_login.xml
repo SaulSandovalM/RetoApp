@@ -76,7 +76,7 @@
         android:layout_gravity="center"
         android:text="Entrar"
         android:textColor="@android:color/white"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorAccent"
         android:onClick="menu"
         android:id="@+id/inicio"
         android:layout_below="@+id/editText"
