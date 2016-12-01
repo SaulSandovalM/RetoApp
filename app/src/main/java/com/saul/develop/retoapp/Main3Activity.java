@@ -3,7 +3,9 @@ package com.saul.develop.retoapp;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -12,9 +14,15 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+
+import java.lang.reflect.Array;
+
 import static com.saul.develop.retoapp.R.id.nav_estadisticos;
 
 public class Main3Activity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+    public static String user;
+    public static String pass;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +56,33 @@ public class Main3Activity extends AppCompatActivity implements NavigationView.O
         ft.replace(R.id.content_frame, fragment);
         ft.commit();
 
+        // sacamos las llaves guardadas en el activity anterior
+        // Restore preferences
+        SharedPreferences llaves = getSharedPreferences(Login.USER_SESSION, 0);
+        user = llaves.getString("usuario",null);
+        pass = llaves.getString("pass",null);
+        Log.v("ActivityTag","Auser: "+user);
+        Log.v("ActivityTag","Apass: "+pass);
+
+
+        // intentamos pasarle al fragment las variables
+        fragment.setUser(user,pass);
+
+
+
+
+
+
+    } //onCreate
+
+    //Metodo para devolver el usuario
+    public static String[] getUser(){
+        //declaro mis datos
+        String[] response = {
+                user,
+                pass
+        };
+        return response;
     }
 
     @Override

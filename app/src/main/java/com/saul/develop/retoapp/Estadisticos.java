@@ -1,6 +1,8 @@
 package com.saul.develop.retoapp;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -24,7 +26,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.Authenticator;
 import java.net.HttpURLConnection;
+import java.net.PasswordAuthentication;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -36,6 +40,10 @@ import static com.saul.develop.retoapp.R.id.elTexto;
  * A simple {@link Fragment} subclass.
  */
 public class Estadisticos extends Fragment {
+    private String user;
+    private String pass;
+
+
 
     private ArrayAdapter<String> adapter;
 
@@ -45,12 +53,13 @@ public class Estadisticos extends Fragment {
     public Estadisticos() {
         // Required empty public constructor
     }
-}
-/*
+
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
         new consumoTask().execute();
+
+
     }
 
     @Override
@@ -75,13 +84,13 @@ public class Estadisticos extends Fragment {
 
         //declaro mis datos
         String[] data = {
-                *//*"Gerente",
+                "Gerente",
                 "Chofer",
                 "Chef",
                 "Asistente general",
                 "Repartidor",
                 "Cocinero",
-                "Musico"*//*
+                "Musico"
         };
 
         List<String> fakaData = new ArrayList<String>(Arrays.asList(data));
@@ -95,6 +104,16 @@ public class Estadisticos extends Fragment {
         listView.setAdapter(adapter);
 
         return rootView;
+    } //oncreate
+
+    //methodo para obtener el usuario
+    public void setUser(String u,String p){
+        user = u;
+        pass = p;
+        //mandamos al log las llaves
+        Log.v("TAG","usuario: "+user);
+        Log.v("TAG","password: "+pass);
+
     }
 
     public class consumoTask extends AsyncTask<Void, Void, String[]> {
@@ -107,10 +126,17 @@ public class Estadisticos extends Fragment {
 
             try {
 
-                URL url = new URL("https://agile-thicket-30819.herokuapp.com/api/vacantes/");
+                URL url = new URL("https://safe-earth-79891.herokuapp.com/api/vacantes/");
 
                 urlConnection = (HttpURLConnection) url.openConnection();
                 urlConnection.setRequestMethod("GET");
+
+                Authenticator.setDefault (new Authenticator() {
+                    protected PasswordAuthentication getPasswordAuthentication() {
+                        return new PasswordAuthentication (user, pass.toCharArray());
+                    }
+                });
+
                 urlConnection.connect();
 
                 InputStream inputStream = urlConnection.getInputStream();
@@ -154,21 +180,20 @@ public class Estadisticos extends Fragment {
             return null;
         }
         private String[] getDataFormJson(String forecastJsonStr) throws JSONException{
-            final String FIELDS = "fields";
-            final String VACANTE = "puesto_solicitante";
+            final String VACANTE = "puesto";
             JSONArray forecastJson = new JSONArray(forecastJsonStr);
             String[] resultStrs = new String[forecastJson.length()];
             for(int i=0;i < forecastJson.length(); i++){
 
-                JSONObject elemento_cero = forecastJson.getJSONObject(i);
-                JSONObject fields = elemento_cero.getJSONObject(FIELDS);
-                String vacante = fields.getString(VACANTE);
+                JSONObject res = forecastJson.getJSONObject(i);
+                String empresa = res.getString("empresa");
+                String puesto = res.getString("puesto");
 
-                Log.v("el array", forecastJson.toString());
-                Log.v("el field", forecastJsonStr);
-                Log.v("la vacante", forecastJsonStr);
+                Log.v("el objeto", res.toString());
+                Log.v("el puesto", puesto);
+                Log.v("la empresa", empresa);
 
-                resultStrs[i] = vacante;
+                resultStrs[i] = puesto;
 
                 Log.v("la respuesta", resultStrs.toString());
             }
@@ -182,40 +207,40 @@ public class Estadisticos extends Fragment {
                 adapter.addAll(result);
             }
         }
-    }
-}*/
-/*
-    public Estadisticos() {
-        // Required empty public constructor
-    }
+    } //consumo Task
 
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+} //class fragment
+//    public Estadisticos() {
+//        // Required empty public constructor
+//    }
+//
+//    @Nullable
+//    @Override
+//    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+//
+//        //declaro mis datos
+//        String[] data = {
+//                "Bimbo",
+//                "Pemex",
+//                "Coca Cola",
+//                "Pepsi",
+//                "Wonder",
+//                "Sony",
+//                "Fanta",
+//                "Sabritas"
+//        };
+//
+//        List<String> fakaData = new ArrayList<String>(Arrays.asList(data));
+//
+//        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),R.layout.item,R.id.elTexto,fakaData);
+//
+//        View rootView = inflater.inflate(R.layout.fragment_estadisticos, container, false);
+//
+//        ListView listView = (ListView) rootView.findViewById(R.id.laLista);
+//        listView.setAdapter(adapter);
+//        return rootView;
+//
+//
+//    }
 
-        //declaro mis datos
-        String[] data = {
-                "Bimbo",
-                "Pemex",
-                "Coca Cola",
-                "Pepsi",
-                "Wonder",
-                "Sony",
-                "Fanta",
-                "Sabritas"
-        };
 
-        List<String> fakaData = new ArrayList<String>(Arrays.asList(data));
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),R.layout.item,R.id.elTexto,fakaData);
-
-        View rootView = inflater.inflate(R.layout.fragment_estadisticos, container, false);
-
-        ListView listView = (ListView) rootView.findViewById(R.id.laLista);
-        listView.setAdapter(adapter);
-        return rootView;
-
-
-    }
-}
-*/

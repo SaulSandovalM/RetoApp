@@ -40,16 +40,16 @@
         android:text="Correo Electronico:"
         android:layout_below="@+id/logo"
         android:layout_alignParentStart="true"
-        android:id="@+id/textView2" />
+        android:id="@+id/texto" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/texto"
         android:layout_alignParentStart="true"
-        android:id="@+id/editText2" />
+        android:id="@+id/elUsuario" />
 
     <TextView
         android:layout_width="match_parent"
@@ -57,7 +57,7 @@
         android:gravity="center"
         android:textSize="20dp"
         android:text="Contraseña:"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/elUsuario"
         android:layout_alignParentStart="true"
         android:id="@+id/textView3" />
 
@@ -68,7 +68,7 @@
         android:ems="20"
         android:layout_below="@+id/textView3"
         android:layout_alignParentStart="true"
-        android:id="@+id/editText" />
+        android:id="@+id/elPass" />
 
     <Button
         android:layout_width="150dp"
@@ -78,8 +78,8 @@
         android:textColor="@android:color/white"
         android:background="@color/colorPrimary"
         android:onClick="menu"
-        android:id="@+id/inicio"
-        android:layout_below="@+id/editText"
+        android:id="@+id/logIn"
+        android:layout_below="@+id/elPass"
         android:layout_alignStart="@+id/logo"
         android:layout_marginTop="10dp" />
 
@@ -89,7 +89,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="¿No tienes cuenta? Registrate"
-        android:layout_below="@+id/inicio"
+        android:layout_below="@+id/logIn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:id="@+id/registro"

@@ -1,4 +1,4 @@
-#Wed Nov 30 17:34:03 CST 2016
+#Thu Dec 01 11:34:31 CST 2016
 base.0=/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_428d81856005e2772572e7d95aa4cad53e7b797d
 renamed.1=classes.dex
 renamed.0=classes2.dex
