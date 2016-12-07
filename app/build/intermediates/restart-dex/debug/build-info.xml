@@ -1,68 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="25"
-    density="420dpi"
+    abi="armeabi-v7a,armeabi"
+    api-level="18"
+    density="hdpi"
     format="8"
     plugin-version="2.2.2"
-<<<<<<< HEAD
-    timestamp="53557830101928"
-    token="8741178495190291434"
-    verifier="METHOD_DELETED" >
-
-    <task
-        name="javac"
-        duration="1076" />
-=======
-    timestamp="2161592331898"
+    timestamp="3796805705060"
     token="8863673466897996701"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="727" />
->>>>>>> 81ab8bbddbcb4d297e5d938edbd39a509519304c
+        duration="3141" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-<<<<<<< HEAD
-        duration="64" />
+        duration="652" />
     <task
         name="verifier"
-        duration="10" />
-
-    <artifact
-        location="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-        type="DEX" />
-
-    <build
-        timestamp="53439032113390"
-=======
-        duration="367" />
-    <task
-        name="verifier"
-        duration="70" />
+        duration="59" />
 
     <artifact
         location="/Users/fixtergeek/Documents/RetoApp/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="2161592331898"
->>>>>>> 81ab8bbddbcb4d297e5d938edbd39a509519304c
+        timestamp="3796805705060"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/fixtergeek/Documents/RetoApp/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="53557830101928"
-        verifier="METHOD_DELETED" >
-        <artifact
-            location="/Users/BlisS/fixter/java/RetoApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

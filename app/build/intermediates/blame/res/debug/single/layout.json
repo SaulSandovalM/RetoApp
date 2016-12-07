@@ -148,12 +148,12 @@
         "source": "/Users/fixtergeek/Documents/RetoApp/app/src/main/res/layout/fragment_estadisticos.xml"
     },
     {
-        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/content_main3.xml",
-        "source": "/Users/fixtergeek/Documents/RetoApp/app/src/main/res/layout/content_main3.xml"
-    },
-    {
         "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/content_main3.xml",
+        "source": "/Users/fixtergeek/Documents/RetoApp/app/src/main/res/layout/content_main3.xml"
     },
     {
         "merged": "/Users/fixtergeek/Documents/RetoApp/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",

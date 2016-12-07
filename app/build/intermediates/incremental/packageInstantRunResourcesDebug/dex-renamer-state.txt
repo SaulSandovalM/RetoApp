@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-#Thu Dec 01 11:34:15 CST 2016
-=======
-#Thu Dec 01 10:05:55 CST 2016
->>>>>>> 81ab8bbddbcb4d297e5d938edbd39a509519304c
+#Sat Dec 03 10:19:01 CST 2016
